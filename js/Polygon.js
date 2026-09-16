@@ -1,0 +1,1 @@
+class Polygon{constructor(count){this.count=Math.max(3,count|0);this.vertices=[];for(let i=0;i<this.count;i++){const a=-Math.PI/2+i*Math.PI*2/this.count;this.vertices.push({x:.5+Math.cos(a)*.44,y:.5+Math.sin(a)*.44})}}}
